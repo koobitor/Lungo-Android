@@ -85,6 +85,8 @@ h1 {
 body { font-family: 'Roboto', sans-serif !important; }
 body .text.bold { font-weight: 500; }
 body .text.tiny { color: #777777; }
+.box-icon { width: 32px; height: 32px; float: left; background: #aaaaaa; margin-right: 10px; }
+.list li .icon { width: 32px; height: 32px; font-size: 2em; }
 article .button, article button, article .button abbr, article button abbr { text-shadow: 0 0 0; }
 .button.press { border: 5px solid #405860; border-radius: 5px; width: 70%; margin: auto; margin-bottom: 10px; }
 
@@ -92,10 +94,21 @@ article .button, article button, article .button abbr, article button abbr { tex
 body > section > header { background: #333333; border-bottom: 1px solid #292929; box-shadow: 0 1px 0px #d1d1d1; }
 body > section > header .title { text-shadow: 0 0 0; margin-left: 5px; }
 header nav a, header nav button { height: 46px; min-width: 30px; margin-top: -1px; }
-header nav a.app-icon img { float: left; margin-top: 16px; margin-left: 7px; }
-header nav a.app-icon div { float: left; width: 30px; height: 30px; background: #4f4f4f; border: 1px solid #6c6c6c; margin-top: 9px; margin-left: 3px; }
+header nav a.app-icon img { float: left; margin-top: 16px; margin-left: 7px; margin-right: -5px; }
+header nav a.app-icon div { float: left; width: 30px; height: 30px; background: #4f4f4f; border: 1px solid #6c6c6c; margin-top: 9px; margin-left: 10px; }
 
-/* */
+/* aside */
+body > aside > header { height: 0; }
+.list li h1, .list li h2, .list li h3, .list li h4, .list li h5, .list li h6, .list li strong, .list li small { margin-top: 5px; }
+aside .list h3 { border-bottom: 2px solid #aaaaaa; margin: 0 14px; font-size: 0.9em; padding-bottom: 5px; color: #aaaaaa; margin-top: 10px; margin-bottom: 10px;}
+aside .list h3.red { color: #ff4444; border-bottom: 2px solid #ff4444; }
+aside .list h3.green { color: #36ff00; border-bottom: 2px solid #36ff00; }
+aside .list h3.blue { color: #0036ff; border-bottom: 2px solid #0036ff; }
+aside .list li { height: 63px; }
+.list li .on-right.tag { margin-top: 7px; }
+.list li:not(.big) { padding-left: 1.1em; }
+
+/* article list */
 section article.indenteds ul { margin: 0 10px; }
 section article.indenteds ul li { padding-left: 5px; padding-right: 5px; }
 section article.black { background: #111111; }
