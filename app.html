@@ -9,19 +9,28 @@
     <meta name="format-detection" content="telephone=no">
     <meta http-equiv="cleartype" content="on">
 
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="static/stylesheets/lungo.css">
     <link rel="stylesheet" type="text/css" href="static/stylesheets/lungo.icon.css">
     <link rel="stylesheet" type="text/css" href="static/stylesheets/lungo.theme.css">
     <link rel="stylesheet" type="text/css" href="static/stylesheets/index.css" />
-    <title>Hello World</title>
+    <title>Lungo - Android</title>
   </head>
   <body>
     <section id="main" data-transition="slide" data-aside="features" class="drag">
       <header>
         <nav>
-          <a href="#" data-view-aside="features" data-icon="menu"></a>
+          <a href="#" class="app-icon" data-view-aside="features">
+            <img src="static/images/icon/ic_up.png" width="10" />
+            <div></div>
+          </a>
         </nav>
-        <div class="centered title">LUNGO - iOS7</div>
+        <div class="title">Lungo Android</div>
+        <nav class="on-right">
+          <a href="#">
+            <img src="static/images/icon/ic_action_overflow.png" width="32" />
+          </a>
+        </nav>
       </header>
 
       <nav data-control="groupbar" data-article="icon-symbol icon-media icon-toolbar icon-social icon-item">
@@ -38,7 +47,7 @@
         <a href="#" data-view-article="list-examples" data-label="Examples"></a>
       </nav>
 
-      <article id="main-article" class="list indenteds scroll">
+      <article id="main-article" class="list white indenteds scroll">
         <ul>
           <li class="text small">
             A framework based on HTML5 for developers who want to design, build and share cross device Apps.
@@ -73,13 +82,18 @@
               Each new line of code in Lungo is welcome, we hope that Developers and restless minds help us to improve day by day this humble project.
             </span>
           </li>
-          <li>
-            <a href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Flungo.tapquo.com%2F&text=@lungojs a framework for developers who want to design, build and share cross device apps" target="_blank" class="button theme" data-label="Tweet me"></a>
-
-            <a href="http://lungo.tapquo.com" target="_blank" class="button margin-top secondary" data-label="Go to Project's page"></a>
-          </li>
         </ul>
       </article>
+
+      <footer>
+        <nav>
+          <a href="#" class="app-icon left"><div></div></a>
+          <a href="#" class="app-icon center"><div></div></a>
+          <a href="#" class="app-icon right">
+            <img src="static/images/icon/ic_action_overflow.png" width="32" />
+          </a>
+        </nav>
+      </footer>
     </section>
     <script type="text/javascript" src="phonegap.js"></script>
     <script type="text/javascript" src="static/javascripts/quo.js"></script>
