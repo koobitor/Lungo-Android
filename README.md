@@ -1,6 +1,6 @@
 Lungo-Android
 =============
-This is extend theme of lungo (2.2.0) that present android style to your project. :)
+This is an extend theme of lungo (2.2.0) that presents android style of your project. :)
 
 [What is LungoJS?](https://github.com/tapquo/Lungo.js)
 =============
