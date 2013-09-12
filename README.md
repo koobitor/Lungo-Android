@@ -24,6 +24,7 @@ Getting Started
 Here you have the dependencies of your Lungo application's body. It must contain at least:
 
 ``` html
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="css/lungo.css">
 <link rel="stylesheet" href="css/lungo.icon.css">
 <link rel="stylesheet" href="css/lungo.theme.css">
